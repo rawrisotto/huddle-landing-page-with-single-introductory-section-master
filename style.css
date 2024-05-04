@@ -113,6 +113,12 @@ main > section > button {
     font-size: 0.875rem;
     color: var(--clr-primary-400);
     box-shadow: 1px 1px 5px var(--clr-neutral-800);
+    cursor: pointer;
+}
+
+main > section > button:hover {
+    background-color: var(--clr-primary-300);
+    color: var(--clr-neutral-100);
 }
 
 /* Footer Styles */
@@ -128,9 +134,16 @@ footer > button {
     aspect-ratio: 1 / 1;
     width: 30px;
     background-color: var(--clr-primary-400);
+    color: var(--clr-neutral-100);
+    cursor: pointer;
+}
+
+footer > button:hover {
+    border-color: var(--clr-primary-300);
+    color: var(--clr-primary-300);
 }
 
 button [class*="fa-"] {
-    color: var(--clr-neutral-100);
+    color: inherit;
     font-size: 0.875rem;
 }
