@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     body {
         padding: 4rem;
         text-align: left;
@@ -12,6 +12,7 @@
         display: grid;
         grid-template-columns: 55% 45%;
         margin: 4rem 0 0 0;
+        align-items: center;
     }
 
     main > section {
