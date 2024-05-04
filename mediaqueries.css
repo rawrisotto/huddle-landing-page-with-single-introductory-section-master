@@ -2,6 +2,8 @@
     body {
         padding: 4rem;
         text-align: left;
+        background-image: url('./images/bg-desktop.svg');
+        background-size: contain;
     }
 
     h1 > img {
