@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/rawrisotto/huddle-landing-page-with-single-introductory-section-master)
-- Live Site URL: [Netlify](https://glowing-pasca-aaa274.netlify.app/)
+- Live Site URL: [Netlify](https://66359c57a100830008b832e5--glowing-pasca-aaa274.netlify.app/)
 
 ### Built with
 
