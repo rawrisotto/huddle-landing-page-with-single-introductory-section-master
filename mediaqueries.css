@@ -1,0 +1,44 @@
+@media (min-width: 768px) {
+    body {
+        padding: 4rem;
+        text-align: left;
+    }
+
+    h1 > img {
+        width: 210px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 55% 45%;
+        margin: 4rem 0 0 0;
+    }
+
+    main > section {
+        padding: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    main > section > button {
+        font-size: 1rem;
+        padding: 1rem 4.5rem;
+        border-radius: 2rem;
+        margin-top: 1.5rem;
+    }
+
+    footer {
+        justify-content: end;
+    }
+
+    footer > button {
+        width: 40px;
+    }
+
+    button [class*="fa-"] {
+        font-size: 1.125rem;
+    }
+}
